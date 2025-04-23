@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0a94773-6ed5-479f-b7f8-8e08ab3c2a0f">
+  <producedTypes>
+    <objectType typeId="a75fcb5b-06d2-4aa9-ad28-b8c7e05cd6d6" valueTypeId="d12077f5-8848-4b15-a1c7-5d33891bdcf5"/>
+    <managerType typeId="4d84a1c1-8551-4c7d-833b-09dd6dee6258" valueTypeId="b8748289-7c93-4c6c-ab85-7bf32a3c4384"/>
+  </producedTypes>
+  <name>ТестоваяОбработкаПримеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая обработка примеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестоваяОбработкаПримеров.Form.Форма</defaultForm>
+  <attributes uuid="de069654-c8d5-47dd-8069-22417f8d63d5">
+    <name>ТекущаяДатаИВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая дата и время</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2488fc11-8cae-46c6-9675-9c6da0f3e609">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
