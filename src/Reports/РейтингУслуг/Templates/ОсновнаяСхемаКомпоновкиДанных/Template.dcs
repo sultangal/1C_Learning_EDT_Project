@@ -135,6 +135,15 @@
 					<dcsset:field>Выручка</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Услуга.Родитель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:nil="true"/>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>5614c6c9-ab5e-4e97-907d-8f0f8750c0c7</dcsset:userSettingID>
+			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
@@ -188,6 +197,8 @@
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>6966dea3-dc29-44ab-83cf-6dbf1130aaa6</dcsset:userSettingID>
 				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>90ae3b3a-81c9-4d87-b581-746bd19b9341</dcsset:userSettingID>
 			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
