@@ -57,6 +57,9 @@
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ПереченьУслуг</reports>
+  <reports>Report.РейтингКлиентов</reports>
+  <reports>Report.Универсальный</reports>
   <dataProcessors>DataProcessor.ТестоваяОбработкаПримеров</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>

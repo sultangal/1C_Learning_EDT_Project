@@ -186,4 +186,152 @@
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ОбъемВыручки</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Объем выручки</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Выручка</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>0001-01-01T00:00:00</v8:date>
+					</dcscor:value>
+					<dcsset:userSettingID>7f5aceef-e85e-4129-a03f-4836781d3aa4</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>fcc22d90-3714-4351-aa45-c444128bde74</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:ChartType">Gauge</dcscor:value>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТипДиаграммы.ИнформационныеИнтервалыЗначений</dcscor:parameter>
+						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartReferenceBands">
+							<d7p1:referenceBand>
+								<d7p1:begin xsi:type="xs:decimal">0</d7p1:begin>
+								<d7p1:end xsi:type="xs:decimal">999</d7p1:end>
+								<d7p1:labelText xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Плохо</v8:content>
+									</v8:item>
+								</d7p1:labelText>
+								<d7p1:toolTip xsi:type="v8:LocalStringType"/>
+								<d7p1:labelArea>
+									<d7p1:font xsi:type="v8ui:Font" kind="AutoFont"/>
+									<d7p1:textColor>auto</d7p1:textColor>
+									<d7p1:backColor>auto</d7p1:backColor>
+									<d7p1:border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</d7p1:border>
+									<d7p1:borderColor>auto</d7p1:borderColor>
+								</d7p1:labelArea>
+								<d7p1:color>#FFFF00</d7p1:color>
+								<d7p1:borderColor>#FFFF00</d7p1:borderColor>
+								<d7p1:displayAreaBegin>0.0</d7p1:displayAreaBegin>
+								<d7p1:displayAreaEnd>1.0</d7p1:displayAreaEnd>
+								<d7p1:beginIsPointNumber>false</d7p1:beginIsPointNumber>
+								<d7p1:endIsPointNumber>false</d7p1:endIsPointNumber>
+							</d7p1:referenceBand>
+							<d7p1:referenceBand>
+								<d7p1:begin xsi:type="xs:decimal">1000</d7p1:begin>
+								<d7p1:end xsi:type="xs:decimal">2000</d7p1:end>
+								<d7p1:labelText xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Хорошо</v8:content>
+									</v8:item>
+								</d7p1:labelText>
+								<d7p1:toolTip xsi:type="v8:LocalStringType"/>
+								<d7p1:labelArea>
+									<d7p1:font xsi:type="v8ui:Font" kind="AutoFont"/>
+									<d7p1:textColor>auto</d7p1:textColor>
+									<d7p1:backColor>auto</d7p1:backColor>
+									<d7p1:border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</d7p1:border>
+									<d7p1:borderColor>auto</d7p1:borderColor>
+								</d7p1:labelArea>
+								<d7p1:color>#00FF00</d7p1:color>
+								<d7p1:borderColor>#00FF00</d7p1:borderColor>
+								<d7p1:displayAreaBegin>0.0</d7p1:displayAreaBegin>
+								<d7p1:displayAreaEnd>1.0</d7p1:displayAreaEnd>
+								<d7p1:beginIsPointNumber>false</d7p1:beginIsPointNumber>
+								<d7p1:endIsPointNumber>false</d7p1:endIsPointNumber>
+							</d7p1:referenceBand>
+							<d7p1:referenceBand>
+								<d7p1:begin xsi:type="xs:decimal">2001</d7p1:begin>
+								<d7p1:end xsi:type="xs:decimal">3000</d7p1:end>
+								<d7p1:labelText xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отлично</v8:content>
+									</v8:item>
+								</d7p1:labelText>
+								<d7p1:toolTip xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отлично</v8:content>
+									</v8:item>
+								</d7p1:toolTip>
+								<d7p1:labelArea>
+									<d7p1:font xsi:type="v8ui:Font" kind="AutoFont"/>
+									<d7p1:textColor>auto</d7p1:textColor>
+									<d7p1:backColor>auto</d7p1:backColor>
+									<d7p1:border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</d7p1:border>
+									<d7p1:borderColor>auto</d7p1:borderColor>
+								</d7p1:labelArea>
+								<d7p1:color>#FF00FF</d7p1:color>
+								<d7p1:borderColor>#FF00FF</d7p1:borderColor>
+								<d7p1:displayAreaBegin>0.0</d7p1:displayAreaBegin>
+								<d7p1:displayAreaEnd>1.0</d7p1:displayAreaEnd>
+								<d7p1:beginIsPointNumber>false</d7p1:beginIsPointNumber>
+								<d7p1:endIsPointNumber>false</d7p1:endIsPointNumber>
+							</d7p1:referenceBand>
+						</dcscor:value>
+					</dcscor:item>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemChart">
+				<dcsset:point>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Мастер</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:point>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
 </DataCompositionSchema>
